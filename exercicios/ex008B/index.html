@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações / Pré-formatação</h1>
+    <h2>Código fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito na linguagem JavaScript</p> <!--todas as letras possuem a mesma largura quando escrita, fonte mono espaçada-->
+    <pre>
+        <code>
+            num = int(input('Digite um numero'))
+            if num % 2 == 0:
+                print(f'O número {num} é 'PAR'')
+            else:
+                print(f'O número {num} é 'ÍMPAR'')
+            print(f'Fim do Progama')
+        </code>
+    </pre> <!--pre fica escrito como está escrito acima, com espaços e quebras de linha-->
+
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p> <!--q = quote, uma tag de citação-->
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">Ed gosta de viajar, jogar bilhar e passar o tempo com sua família. Ele também adora passar um tempo na cozinha, cozinhando desenfreadamente, ou sendo subchefe de sua esposa, Dina, que é louca por culinária. Jeff Noble busca de alguma maneira equilibrar-se entre as funções de diretor designer de usuário em uma empresa de software global, CA Technologies, editor-sócio da Ultrends.com</blockquote> <!--uma citação em bloco, para maiores citações como em livros-->
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Linguage">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando</p> <!--tag abbr para abreviações-->
+
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+</body>
+</html>
