@@ -8,16 +8,25 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: repeat-y;
-            background-size: cover; /*auto: tamanho do site, contain: 100% do site sem cortar, mas distorce, cover: 100% da imagem sem distorcer*/
+            background-repeat: no-repeat;
+            background-size: cover; /*auto: tamanho do site, contain: 100% do site sem cortar, mas distorce, cover: 100% da imagem sem distorcer
+            background-attachment: fixed; /*deixa o background fixado sem repetir ou rolar todo o fundo*/
+
+            /*Shorthand - background
+                color > image > position > repeat > [size](size nao esta funcionando no shorthand) > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid lightblue;
